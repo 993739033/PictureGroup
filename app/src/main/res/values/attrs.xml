@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PictureGroup">
+        <!--PictureView-->
+        <!--点击拍照的title-->
+        <attr name="view_title" format="string" />
+        <!--点击拍照icon-->
+        <attr name="view_take_pic_icon" format="integer" />
+        <!--显示图片为空时的占位图片-->
+        <attr name="view_none_icon" format="integer" />
+        <!--当group包含多个子项 title 自增长 如: 检查1 检查2-->
+        <attr name="view_title_auto_increase" format="boolean" />
+
+        <!--PictureGroup-->
+        <!--子项之间的margin-->
+        <attr name="group_item_margin" format="dimension" />
+        <!--行数-->
+        <attr name="group_row" format="integer"/>
+        <!--列数-->
+        <attr name="group_column" format="integer"/>
+
+    </declare-styleable>
+
+</resources>

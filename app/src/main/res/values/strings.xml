@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PictureGroup</string>
+    <string name="file_provider_authority">com.wyw.picture.fileprovider</string>
+</resources>
